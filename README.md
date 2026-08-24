@@ -1,10 +1,10 @@
 # Mixed Comunicação e Marketing — Consultoria de Dados
 
-Projeto de análise de dados aplicado à gestão financeira, comercial e operacional de uma pequena empresa de comunicação.
+Projeto de análise de dados desenvolvido para apoiar a gestão financeira, comercial e operacional da Mixed Comunicação e Marketing, pequeno escritório de comunicação localizado no Rio de Janeiro.
 
-## Contexto
+## Contexto do negócio
 
-A Mixed Comunicação e Marketing é um pequeno escritório localizado no Rio de Janeiro, com 5 profissionais — 2 sócios e 3 empregados — e uma carteira de aproximadamente 10 a 15 clientes.
+A Mixed possui uma equipe de 5 profissionais — 2 sócios e 3 empregados — e uma carteira de aproximadamente 10 a 15 clientes.
 
 A empresa atua com:
 
@@ -15,26 +15,57 @@ A empresa atua com:
 - Contratos mensais;
 - Projetos pontuais.
 
-O objetivo desta consultoria é organizar dados operacionais e transformá-los em informações capazes de apoiar decisões sobre **receita, clientes, rentabilidade, utilização da equipe e desempenho comercial**.
+Com diferentes frentes de trabalho e modelos de contratação, a organização dos dados tornou-se importante para acompanhar a evolução da receita, entender a utilização da equipe, avaliar clientes e projetos e apoiar decisões comerciais.
 
-> **Nota:** este é um projeto de portfólio. Todos os dados utilizados são sintéticos e foram criados para simular um cenário empresarial realista. Nenhuma informação de uma empresa ou cliente real é utilizada.
+## Desafio
 
-## Pergunta de negócio
+A empresa possui informações distribuídas entre diferentes controles operacionais. O desafio da consultoria é transformar esses registros em uma visão integrada da operação.
 
-**Como a Mixed pode utilizar seus próprios dados para entender melhor a operação, identificar oportunidades de crescimento e melhorar a alocação de recursos?**
+A análise busca responder, entre outras, perguntas como:
 
-## Escopo da análise
+- Quais clientes representam maior parcela da receita?
+- Como a receita recorrente evolui ao longo do tempo?
+- Quais projetos apresentam maior consumo de horas?
+- Como a capacidade da equipe está distribuída entre clientes e serviços?
+- Quais canais comerciais geram oportunidades mais qualificadas?
+- Onde existem sinais de risco ou oportunidades de crescimento?
 
-O projeto será desenvolvido em etapas:
+## Objetivo da consultoria
 
-1. **Data Quality** — identificação e tratamento de inconsistências;
-2. **Análise exploratória** — entendimento dos principais padrões dos dados;
-3. **Análise financeira** — receita recorrente, projetos pontuais, concentração de faturamento e inadimplência;
-4. **Análise de clientes** — carteira, tempo de relacionamento, segmentos e risco de concentração;
-5. **Análise operacional** — horas trabalhadas, serviços e distribuição da capacidade da equipe;
-6. **Análise comercial** — origem dos leads, funil, conversão e motivos de perda;
-7. **Dashboard executivo** — consolidação dos principais indicadores;
-8. **Recomendações** — tradução dos achados em ações de negócio.
+Construir uma visão analítica da operação que permita à gestão acompanhar indicadores, identificar gargalos e tomar decisões baseadas em dados.
+
+O trabalho será conduzido de ponta a ponta, desde a avaliação da qualidade dos dados até a apresentação dos principais achados e recomendações.
+
+## Escopo
+
+1. **Qualidade dos dados** — identificação de duplicidades, campos ausentes, inconsistências e problemas de padronização.
+2. **Tratamento e modelagem** — preparação das bases para análise.
+3. **Análise financeira** — receita recorrente, projetos pontuais, concentração de faturamento e pagamentos em aberto.
+4. **Análise de clientes** — carteira, segmentos, tempo de relacionamento e concentração de receita.
+5. **Análise operacional** — horas trabalhadas, distribuição por cliente, serviço e profissional.
+6. **Análise comercial** — origem dos leads, evolução do funil, conversão e motivos de perda.
+7. **Dashboard executivo** — consolidação dos principais indicadores para acompanhamento da gestão.
+8. **Recomendações** — tradução dos achados em oportunidades e ações de negócio.
+
+## Metodologia
+
+```text
+Dados operacionais
+       ↓
+Avaliação da qualidade
+       ↓
+Tratamento e padronização
+       ↓
+Modelagem
+       ↓
+Análise exploratória
+       ↓
+Indicadores de negócio
+       ↓
+Dashboard
+       ↓
+Insights e recomendações
+```
 
 ## Estrutura do projeto
 
@@ -71,11 +102,15 @@ mixed-data-consulting/
 
 Janeiro de 2025 a junho de 2026.
 
-## Status
+## Documentação e confidencialidade
+
+As informações disponibilizadas publicamente neste repositório são apresentadas de forma anonimizada ou simulada para preservar dados empresariais e informações potencialmente sensíveis. A estrutura das bases, os processos de tratamento e a metodologia de análise reproduzem um cenário de consultoria aplicado a uma pequena empresa de comunicação.
+
+## Status do projeto
 
 🟡 **Em desenvolvimento**
 
-A primeira etapa será a construção e documentação da base de dados bruta, seguida pela análise de qualidade dos dados.
+**Etapa atual:** estruturação das bases e avaliação da qualidade dos dados.
 
 ## Autor
 
