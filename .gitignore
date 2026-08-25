@@ -8,7 +8,12 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Dados processados e temporários
+# Dados brutos e processados locais
+# As bases de trabalho não devem ser versionadas.
+data/raw/*.xlsx
+data/processed/*.xlsx
+
+# Arquivos temporários
 .DS_Store
 *.tmp
 *.log
